@@ -8,12 +8,39 @@ export const config = {
 const app = new Hono().basePath('/api')
 
 app.get('/', (c) => {
-    const { text, width = 100, height = 80 } = c.req.query()
+    const options = c.req.query()
+    const {
+        text,
+        color = 'light-dark(black, white)',
+        size = 30,
+        font = 'Inter',
+        width = 640,
+        height = 40,
+    } = options;
 
     c.header('Content-Type', 'image/svg+xml')
     return c.body(`
-    <svg xmlns="http://www.w3.org/2000/svg" width="${width}px" height="${height}px">
-        <text x="10" y="20" style="font-size: 24px">${text}</text>
+    <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+        <defs>
+            <style>
+                @import url(https://fonts.googleapis.com/css?family=${font}:700);
+            </style>
+            <linearGradient id="gradient" gradientTransform="rotate(90)">
+                <stop offset="0%" stop-color="${color}" />
+                <stop offset="100%" stop-color="transparent" />
+            </linearGradient>
+        </defs>
+        <g transform="translate(10, 30)">
+            <text
+                fill="url(#gradient)"
+                font-family="${font}"
+                font-size="${size}"
+                x="0"
+                y="0"
+            >
+            ${text}
+            </text>
+        </g>
     </svg>
     `)
 })
