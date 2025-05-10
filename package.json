@@ -1,5 +1,6 @@
 {
   "name": "heading-to-svg",
+  "type": "module",
   "scripts": {
     "check": "biome check --write .",
     "start": "vercel dev",
