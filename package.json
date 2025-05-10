@@ -2,6 +2,7 @@
   "name": "heading-to-svg",
   "type": "module",
   "scripts": {
+    "build": "tsc && echo 🔥",
     "check": "biome check --write .",
     "start": "vercel dev",
     "deploy": "vercel"
