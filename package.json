@@ -1,6 +1,7 @@
 {
   "name": "heading-to-svg",
   "scripts": {
+    "check": "biome check --write .",
     "start": "vercel dev",
     "deploy": "vercel"
   },
@@ -8,6 +9,8 @@
     "hono": "^4.6.20"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.14.0",
     "vercel": "^32.4.1"
   }
 }
