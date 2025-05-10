@@ -1,4 +1,4 @@
-import type { RGBGradient, RGBTuple, SVGParserOptions } from '.';
+import type { ColorValue, RGBTuple, SVGParserOptions } from './SVGParser.js';
 
 export function parseQueryParams(
   query: Record<string, string>,
@@ -16,7 +16,7 @@ export function parseQueryParams(
   };
 }
 
-function parseColor(input?: string): RGBTuple | RGBGradient {
+function parseColor(input?: string): ColorValue {
   if (!input) return [0, 0, 0];
   if (input.includes(';')) {
     const parts = input.split(';');
