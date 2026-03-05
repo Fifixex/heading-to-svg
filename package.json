@@ -1,12 +1,10 @@
 {
   "name": "heading-to-svg",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && echo 🔥",
+    "build": "tsc && echo 🔥",
     "dev": "vite",
-    "check": "biome check --write .",
-    "start": "vercel dev",
-    "deploy": "vercel"
+    "check": "biome check --write ."
   },
   "dependencies": {
     "@hono/zod-validator": "^0.7.6",

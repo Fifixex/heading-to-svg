@@ -1,6 +1,6 @@
 import satori from 'satori';
-import { getFontBuffer } from './fonts';
 import { getAnimationCss } from '../animations';
+import { getFontBuffer } from './fonts';
 import type { SvgParams } from './validator';
 
 export async function renderSvg(params: SvgParams): Promise<string> {
@@ -26,13 +26,13 @@ export async function renderSvg(params: SvgParams): Promise<string> {
         type: 'div', // Using div instead of span ensures flex vertical stacking correctly if not configured perfectly, though flex column does this anyway
         props: {
           style: { display: 'flex' },
-          children: line || ' ' // Handle empty lines
-        }
-      }))
-    }
+          children: line || ' ', // Handle empty lines
+        },
+      })),
+    },
   };
 
-  const svgRaw = await satori(elements as any, {
+  const svgRaw = await satori(elements, {
     width: params.width as number,
     height: params.height as number,
     fonts: [
