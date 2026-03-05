@@ -1,7 +1,7 @@
 import satori from 'satori';
-import { getAnimationCss } from '../animations';
-import { getFontBuffer } from './fonts';
-import type { SvgParams } from './validator';
+import { getAnimationCss } from '../animations/index.js';
+import { getFontBuffer } from './fonts.js';
+import type { SvgParams } from './validator.js';
 
 export async function renderSvg(params: SvgParams): Promise<string> {
   const fontBuffer = await getFontBuffer();
