@@ -1,15 +1,51 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-let fontBuffer: ArrayBuffer | null = null;
+const fontCache = new Map<string, Promise<ArrayBuffer>>();
 
-export async function getFontBuffer(): Promise<ArrayBuffer> {
-  if (fontBuffer) return fontBuffer;
-  const fontPath = path.join(process.cwd(), 'src', 'assets', 'inter.woff');
-  const buffer = await fs.readFile(fontPath);
-  fontBuffer = buffer.buffer.slice(
-    buffer.byteOffset,
-    buffer.byteOffset + buffer.byteLength,
-  ) as ArrayBuffer;
-  return fontBuffer;
+const FONT_FILES = {
+  Inter: 'inter.woff',
+  Roboto: 'roboto.ttf',
+  'JetBrains Mono': 'jetbrains-mono.ttf',
+  'Fira Code': 'fira-code.ttf',
+  'Open Sans': 'open-sans.ttf',
+  'Geist': 'geist.ttf',
+} as const;
+
+type FontFamily = keyof typeof FONT_FILES;
+
+const FONT_DIR = path.join(process.cwd(), 'src', 'assets');
+
+export function getFontBuffer(fontFamily: FontFamily | string = 'Inter' as FontFamily): Promise<ArrayBuffer> {
+  const family = (fontFamily in FONT_FILES ? fontFamily : 'Inter') as FontFamily;
+
+  let cached = fontCache.get(family);
+  if (cached) return cached;
+
+  const fontPromise = loadFont(family);
+
+  fontCache.set(family, fontPromise);
+  return fontPromise;
+}
+
+async function loadFont(fontFamily: FontFamily): Promise<ArrayBuffer> {
+  const fileName = FONT_FILES[fontFamily];
+  const fontPath = path.join(FONT_DIR, fileName);
+
+  try {
+    const buffer = await fs.readFile(fontPath);
+    return buffer.buffer.slice(
+      buffer.byteOffset,
+      buffer.byteOffset + buffer.byteLength
+    );
+  } catch (error) {
+    fontCache.delete(fontFamily);
+    console.error(`Error loading font ${fontFamily}:`, error);
+
+    if (fontFamily !== 'Inter') {
+      return getFontBuffer('Inter');
+    }
+
+    throw new Error('Font cannot be loaded');
+  }
 }

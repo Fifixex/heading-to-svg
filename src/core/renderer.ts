@@ -4,13 +4,22 @@ import { getFontBuffer } from './fonts.js';
 import type { SvgParams } from './validator.js';
 
 export async function renderSvg(params: SvgParams): Promise<string> {
-  const fontBuffer = await getFontBuffer();
+  const fontBuffer = await getFontBuffer(params.fontFamily);
   const textVal = params.text.replace(/\\n/g, '\n');
   const lines = textVal.split('\n');
+
+  const children = lines.map((line) => ({
+    type: 'div',
+    props: {
+      style: { display: 'flex' },
+      children: line || ' ',
+    },
+  }));
 
   const elements = {
     type: 'div',
     props: {
+      className: 'wrapper',
       style: {
         display: 'flex',
         flexDirection: 'column',
@@ -20,24 +29,18 @@ export async function renderSvg(params: SvgParams): Promise<string> {
         height: params.height ? `${params.height}px` : '100%',
         color: params.color,
         fontSize: params.fontSize,
+        fontFamily: params.fontFamily
       },
-      className: 'wrapper',
-      children: lines.map((line, i) => ({
-        type: 'div', // Using div instead of span ensures flex vertical stacking correctly if not configured perfectly, though flex column does this anyway
-        props: {
-          style: { display: 'flex' },
-          children: line || ' ', // Handle empty lines
-        },
-      })),
+      children
     },
   };
 
-  const svgRaw = await satori(elements, {
+  const svg = await satori(elements, {
     width: params.width as number,
     height: params.height as number,
     fonts: [
       {
-        name: 'Inter',
+        name: params.fontFamily,
         data: fontBuffer,
         weight: 400,
         style: 'normal',
@@ -46,9 +49,10 @@ export async function renderSvg(params: SvgParams): Promise<string> {
   });
 
   const css = getAnimationCss(params);
-  if (css) {
-    return svgRaw.replace(/(<svg[^>]*>)/, `$1<style>${css}</style>`);
+
+  if (!css) {
+    return svg;
   }
 
-  return svgRaw;
+  return svg.replace('<svg', `<svg><style>${css}</style>`);
 }
