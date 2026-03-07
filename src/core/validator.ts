@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-const FONTS = ['Inter', 'Roboto', 'JetBrains Mono', 'Fira Code', 'Open Sans', 'Geist'] as const;
+const FONTS = ['inter', 'open-sans', 'geist', 'minecraft'] as const;
 
 export const querySchema = z.object({
   text: z
@@ -17,7 +17,7 @@ export const querySchema = z.object({
 
   fontFamily: z
     .enum(FONTS)
-    .default('Inter'),
+    .default('inter'),
 
   color: z
     .string()

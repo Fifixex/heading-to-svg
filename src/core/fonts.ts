@@ -4,20 +4,18 @@ import path from 'node:path';
 const fontCache = new Map<string, Promise<ArrayBuffer>>();
 
 const FONT_FILES = {
-  Inter: 'inter.woff',
-  Roboto: 'roboto.woff',
-  'JetBrains Mono': 'jetbrains-mono.woff',
-  'Fira Code': 'fira-code.woff',
-  'Open Sans': 'open-sans.woff',
-  'Geist': 'geist.woff',
+  inter: 'inter.woff',
+  minecraft: 'minecraft.woff',
+  'open-sans': 'open-sans.ttf',
+  geist: 'geist.woff',
 } as const;
 
 type FontFamily = keyof typeof FONT_FILES;
 
 const FONT_DIR = path.join(process.cwd(), 'src', 'assets');
 
-export function getFontBuffer(fontFamily: FontFamily | string = 'Inter' as FontFamily): Promise<ArrayBuffer> {
-  const family = (fontFamily in FONT_FILES ? fontFamily : 'Inter') as FontFamily;
+export function getFontBuffer(fontFamily: FontFamily | string = 'inter' as FontFamily): Promise<ArrayBuffer> {
+  const family = (fontFamily in FONT_FILES ? fontFamily : 'inter') as FontFamily;
 
   let cached = fontCache.get(family);
   if (cached) return cached;
@@ -42,8 +40,8 @@ async function loadFont(fontFamily: FontFamily): Promise<ArrayBuffer> {
     fontCache.delete(fontFamily);
     console.error(`Error loading font ${fontFamily}:`, error);
 
-    if (fontFamily !== 'Inter') {
-      return getFontBuffer('Inter');
+    if (fontFamily !== 'inter') {
+      return getFontBuffer('inter');
     }
 
     throw new Error('Font cannot be loaded');
