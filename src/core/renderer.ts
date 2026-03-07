@@ -49,10 +49,9 @@ export async function renderSvg(params: SvgParams): Promise<string> {
   });
 
   const css = getAnimationCss(params);
-
-  if (!css) {
-    return svg;
+  if (css) {
+    return svg.replace(/(<svg[^>]*>)/, `$1<style>${css}</style>`);
   }
 
-  return svg.replace('<svg', `<svg><style>${css}</style>`);
+  return svg;
 }
