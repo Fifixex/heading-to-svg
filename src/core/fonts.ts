@@ -5,9 +5,9 @@ const fontCache = new Map<string, Promise<ArrayBuffer>>();
 
 const FONT_FILES = {
   inter: 'inter.woff',
-  minecraft: 'minecraft.woff',
+  minecraft: 'minecraft.ttf',
   'open-sans': 'open-sans.ttf',
-  geist: 'geist.woff',
+  geist: 'geist.ttf',
 } as const;
 
 type FontFamily = keyof typeof FONT_FILES;
