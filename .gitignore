@@ -1,4 +1,5 @@
 # dev
+dist/
 .vercel/
 .yarn/
 !.yarn/releases
