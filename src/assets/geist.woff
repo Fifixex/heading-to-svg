@@ -100,22 +100,22 @@
   <meta name="route-pattern" content="/:user_id/:repository/raw/*name(/*path)" data-turbo-transient>
   <meta name="route-controller" content="blob" data-turbo-transient>
   <meta name="route-action" content="raw" data-turbo-transient>
-  <meta name="fetch-nonce" content="v2:a7c69b87-bca4-59d5-3b1a-a174f2e9c21a">
+  <meta name="fetch-nonce" content="v2:c558c0c5-710e-b7a8-d388-1755571d86be">
 
     
   <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-  <meta name="request-id" content="D04A:F759A:8DD95E:AC7406:69AC56EA" data-turbo-transient="true" /><meta name="html-safe-nonce" content="b2702b5228dfe0fa37a0c1f145c4ef377d8b0599d90857d9d6d74669a77402c1" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkQwNEE6Rjc1OUE6OEREOTVFOkFDNzQwNjo2OUFDNTZFQSIsInZpc2l0b3JfaWQiOiIyNjMwODA4OTMzOTEwNzMwNDc0IiwicmVnaW9uX2VkZ2UiOiJicmF6aWxzb3V0aCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="d2e4a72c3a8fe0161be6e0d3a75559e6ea27caa1c6780a2439fcdd509a721852" data-turbo-transient="true" />
+  <meta name="request-id" content="D00C:D9E6D:8E83D4:AD60D9:69AC58AC" data-turbo-transient="true" /><meta name="html-safe-nonce" content="a4de3d64ecc394918eb97fb3495c95da0a15b521f957d823bbc55b1da1540098" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkQwMEM6RDlFNkQ6OEU4M0Q0OkFENjBEOTo2OUFDNThBQyIsInZpc2l0b3JfaWQiOiIxODcyMDg0OTUxMDUwNzEyNzYiLCJyZWdpb25fZWRnZSI6ImJyYXppbHNvdXRoIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-turbo-transient="true" /><meta name="visitor-hmac" content="618eb190319ae57c563f918774e6c16b14984f03a9195dfaefbdeedae07f5a7a" data-turbo-transient="true" />
 
 
-    <meta name="hovercard-subject-tag" content="repository:30675533" data-turbo-transient>
+    <meta name="hovercard-subject-tag" content="repository:705774575" data-turbo-transient>
 
 
   <meta name="github-keyboard-shortcuts" content="copilot" data-turbo-transient="true" />
   
 
-  <meta name="selected-link" value="/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf" data-turbo-transient>
+  <meta name="selected-link" value="/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff" data-turbo-transient>
   <link rel="assets" href="https://github.githubassets.com/">
 
     <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -147,7 +147,7 @@
 
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf" />
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff" />
 
       <meta property="og:url" content="https://github.com">
   <meta property="og:site_name" content="GitHub">
@@ -202,7 +202,7 @@
 
 
 
-      <link rel="canonical" href="https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf" data-turbo-transient>
+      <link rel="canonical" href="https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff" data-turbo-transient>
 
 
     <meta name="turbo-body-classes" content="logged-out env-production page-responsive min-height-full d-flex flex-column">
@@ -304,19 +304,19 @@
 
       <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
           <a
-            href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fapache%2Froboto%2Fstatic%2FRoboto-Regular.ttf"
+            href="/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fgeist-font%2Fraw%2Fmain%2Fpackages%2Fnext%2Fdist%2Ffonts%2Fgeist%2FGeist-Regular.woff"
             class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit js-prevent-focus-on-mobile-nav"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ec5cb9af00de0d52fbf72b34fa6dcf3f3503300018da3a72eb08ccfdfafe83de"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="acec183d1d462bb775ed988987e5a2a3871bf6088067e54362ed8f2a1f6bbaf0"
             data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
           >
             Sign in
           </a>
               <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-f3a5684b-849a-49b6-a753-6a0e4fdb7387" aria-labelledby="tooltip-722dc483-966c-4cca-aa51-27130a51d19b" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-c262bd9e-0730-4b0a-a900-3f0c32bfedfb" aria-labelledby="tooltip-8fe373cc-e9cf-47ac-8290-88a9bb22d774" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-722dc483-966c-4cca-aa51-27130a51d19b" for="icon-button-f3a5684b-849a-49b6-a753-6a0e4fdb7387" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-8fe373cc-e9cf-47ac-8290-88a9bb22d774" for="icon-button-c262bd9e-0730-4b0a-a900-3f0c32bfedfb" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.61b70c84b7035dae.module.css" />
@@ -364,7 +364,7 @@
                 
 
 
-<qbsearch-input class="search-input" data-scope="" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="m9NgS-WzTWgpXIiPGn9uaQohcKqHDTTllkt3XMOsruUhl-EqVTxdJ6OarREdVTE-CuMrg6sKT2265h-aOWcrmw" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="YG7LEp60UiSgxag0m9QrKridwZalV1fn1vq90MmUwCqDK7y-3-e3-5XHkcv4btWixqsL5dnQ6KYXl9NehfJtLg" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center tmp-mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -428,7 +428,7 @@
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-c14d765c-3911-4cde-abee-0d83823513eb" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-7c0297dd-f229-45e3-a707-91c2ecec3cd8" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -669,7 +669,7 @@
             ></ul>
 
         </div>
-      <div class="FormControl-inlineValidation" id="validation-c14d765c-3911-4cde-abee-0d83823513eb" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-7c0297dd-f229-45e3-a707-91c2ecec3cd8" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -710,7 +710,7 @@
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Of33cnOozalat9WOjAa20hgqgydIcEO5vXlGJ2BKW7mNBgepfYFh2Vt9F9sgVC23sWMjeJi3JlQgitk0wMnbeg" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="U35c_XtyCzwUwHBFC0zOpXp1EG_XPgfMJvHXIfFo89ctBFdjwlK8uDqKHX1vtWuajxosYJVhKPQyMRxsR209aQ" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -748,7 +748,7 @@
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rHQoBQN5xkxDsWLYKlQ-qi3_NUYkQFwDOWzhD7A90-vZduA6DhmuolABaLAwcd32RTvaIuIg1TOW7tmQzi2Efg" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EWx8xaISKXZ_301J4XnpKRSKhXrUhedu95zVelcCQ9aql83tncAH676TgfG8-iqHj6Fl2R8bEQCOTqixuEj4ww" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -766,7 +766,7 @@
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" value="OmvwagfUhYGqB9o3vLDv5I4FZvol9fyjdZ9wwrM5O7buoYVMYh-uFFcBzjrukB1r4Ek4710hfi5qzNDza9b96w" data-csrf="true" />
+              <input type="hidden" value="y_qsEQc3da7nS95dCEIrNXk5bUAA6RugYCMUEZJru6nAF4tVjNAZoZALCxrboxxegdmAjZdXA9ZpEQgRycGRlA" data-csrf="true" />
             </auto-check>
           </div>
 
@@ -808,10 +808,10 @@
 
             <div class="position-relative HeaderMenu-link-wrap d-lg-inline-block">
               <a
-                href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fapache%2Froboto%2Fstatic%2FRoboto-Regular.ttf"
+                href="/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fgeist-font%2Fraw%2Fmain%2Fpackages%2Fnext%2Fdist%2Ffonts%2Fgeist%2FGeist-Regular.woff"
                 class="HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1"
                 style="margin-left: 12px;"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ec5cb9af00de0d52fbf72b34fa6dcf3f3503300018da3a72eb08ccfdfafe83de"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="acec183d1d462bb775ed988987e5a2a3871bf6088067e54362ed8f2a1f6bbaf0"
                 data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
               >
                 Sign in
@@ -821,7 +821,7 @@
     <h4 data-view-component="true" class="color-fg-default mb-2">                    Sign in to GitHub
 </h4>
                         
-<!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TLfMeAiqV0pH3RfJKNY4PFY-uAlk3moSpommJPBNgidrPqsKCanfsQgQUL2G289Jf5HNR0KQBwKkaVufBpKxCg" />  <input type="hidden" name="add_account" id="add_account" autocomplete="off" class="form-control" />
+<!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g8SJ5kJTC7T4xi6GszkgvFUdWBXISYlYRRUd8BS0cWT2XygvhYRsIm-MuFUZBdBGNGeNccsoQSCS5wG3uHFcSQ" />  <input type="hidden" name="add_account" id="add_account" autocomplete="off" class="form-control" />
 
     <label for="login_field">
       Username or email address
@@ -839,17 +839,17 @@
 <input type="hidden" class="js-support" name="javascript-support" value="unknown">
 <input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
 <input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
-<input type="hidden" name="return_to" id="return_to" value="https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf" autocomplete="off" class="form-control" />
+<input type="hidden" name="return_to" id="return_to" value="https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff" autocomplete="off" class="form-control" />
 <input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
 <input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
 <input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
-<input type="text" name="required_field_76da" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1772902122347" autocomplete="off" class="form-control" /><input type="hidden" name="timestamp_secret" value="80a46b2df010cc00ebd0e02f7edd5f78476789b459a105a61a6fc8cfa9b1ff91" autocomplete="off" class="form-control" />
+<input type="text" name="required_field_2849" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1772902572781" autocomplete="off" class="form-control" /><input type="hidden" name="timestamp_secret" value="2e731be3054cf32bd6435b28b5b85baafa2a56505dd8edf418c2bafbe758bb54" autocomplete="off" class="form-control" />
 
     <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" disable-emu-sso="false" />
   </div>
 </form>  <webauthn-status class="js-webauthn-login-emu-control">
         <div data-target="webauthn-status.partial" class="d-flex flex-justify-between flex-column tmp-mt-3 mb-0" hidden>
-          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fapache%2Froboto%2Fstatic%2FRoboto-Regular.ttf" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fgeist-font%2Fraw%2Fmain%2Fpackages%2Fnext%2Fdist%2Ffonts%2Fgeist%2FGeist-Regular.woff" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">
     <span class="Button-label">or continue with other methods</span>
   </span>
 </a>
@@ -859,20 +859,20 @@
 
 </div></div>            </div>
 
-              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fapache%2Froboto%2Fstatic%2FRoboto-Regular.ttf&amp;source=header"
+              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Fvercel%2Fgeist-font%2Fraw%2Fmain%2Fpackages%2Fnext%2Fdist%2Ffonts%2Fgeist%2FGeist-Regular.woff&amp;source=header"
                 class="HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ec5cb9af00de0d52fbf72b34fa6dcf3f3503300018da3a72eb08ccfdfafe83de"
-                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/google/fonts/raw/main/apache/roboto/static/Roboto-Regular.ttf;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="acec183d1d462bb775ed988987e5a2a3871bf6088067e54362ed8f2a1f6bbaf0"
+                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/vercel/geist-font/raw/main/packages/next/dist/fonts/geist/Geist-Regular.woff;ref_cta:Sign up;ref_loc:header logged out&quot;}"
               >
                 Sign up
               </a>
 
                 <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-a1110dcc-d742-40d8-9087-93865026f021" aria-labelledby="tooltip-4635f784-474a-433f-b659-68e3e344c0e7" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-7139c180-5ef7-485d-856e-d477c8971333" aria-labelledby="tooltip-9fbd0617-47a7-4e75-a889-3fda4d4dfd96" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-4635f784-474a-433f-b659-68e3e344c0e7" for="icon-button-a1110dcc-d742-40d8-9087-93865026f021" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-9fbd0617-47a7-4e75-a889-3fda4d4dfd96" for="icon-button-7139c180-5ef7-485d-856e-d477c8971333" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.61b70c84b7035dae.module.css" />
@@ -910,10 +910,10 @@
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-ab2ed5df-54a7-4ae2-83b7-8086d7457567" aria-labelledby="tooltip-f185ae50-55f9-47d3-b600-91b737206e61" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-babb2585-3482-4908-9df2-6aaf9bd8c62e" aria-labelledby="tooltip-3ddbffc3-6774-4f42-888d-87406f9102d2" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-f185ae50-55f9-47d3-b600-91b737206e61" for="icon-button-ab2ed5df-54a7-4ae2-83b7-8086d7457567" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-3ddbffc3-6774-4f42-888d-87406f9102d2" for="icon-button-babb2585-3482-4908-9df2-6aaf9bd8c62e" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   

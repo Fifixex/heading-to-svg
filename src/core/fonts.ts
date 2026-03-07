@@ -5,11 +5,11 @@ const fontCache = new Map<string, Promise<ArrayBuffer>>();
 
 const FONT_FILES = {
   Inter: 'inter.woff',
-  Roboto: 'roboto.ttf',
-  'JetBrains Mono': 'jetbrains-mono.ttf',
-  'Fira Code': 'fira-code.ttf',
-  'Open Sans': 'open-sans.ttf',
-  'Geist': 'geist.ttf',
+  Roboto: 'roboto.woff',
+  'JetBrains Mono': 'jetbrains-mono.woff',
+  'Fira Code': 'fira-code.woff',
+  'Open Sans': 'open-sans.woff',
+  'Geist': 'geist.woff',
 } as const;
 
 type FontFamily = keyof typeof FONT_FILES;
